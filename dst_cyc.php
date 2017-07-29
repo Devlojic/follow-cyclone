@@ -1,6 +1,6 @@
 <?php
 function get_distance_m($lat1, $lng1, $lat2, $lng2) {
-  $earth_radius = 6378137;   // Terre = sphère de 6378km de rayon
+  $earth_radius = 6378137; 
   $rlo1 = deg2rad($lng1);
   $rla1 = deg2rad($lat1);
   $rlo2 = deg2rad($lng2);
@@ -12,5 +12,9 @@ function get_distance_m($lat1, $lng1, $lat2, $lng2) {
   $d = 2 * atan2(sqrt($a), sqrt(1 - $a));
   return ($earth_radius * $d);
 }
-// affiche 391.613 km
+// conversion km to miles
+function kmtomiles($km) {
+  $miles = 0.621371;
+  return ($miles * $km);
+}
 ?>
