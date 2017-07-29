@@ -6,4 +6,4 @@ L’objectif est qu’un maximum d’informations se trouve sur la carte interac
 
 L’application web proposera également son propre système d’alerte automatique qui avertira les abonnés à l’approche d’un danger.
 
-PS: Ceci est un exercice
+PS: Ceci est un exercice OpenClassRoom
